@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+React.createClass({
+
+	render() {
+		return (
+			<div className="$2">
+				${1:Module}
+			</div>
+		);
+	}
+
+});
+]]></content>
+	<tabTrigger>reactclass</tabTrigger>
+	<scope>source.js</scope>
+	<description>React Class</description>
+</snippet>

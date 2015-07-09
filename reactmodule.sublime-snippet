@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+
+const ${1:Module} = React.createClass({
+
+	render() {
+		return (
+			<div className="$2">
+				${1:Module}
+			</div>
+		);
+	}
+
+});
+
+export default ${1:Module};
+]]></content>
+	<tabTrigger>reactmodule</tabTrigger>
+	<scope>source.js</scope>
+	<description>React Module</description>
+</snippet>
