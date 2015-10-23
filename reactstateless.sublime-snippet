@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+function ${1:Stateless}(props) {
+	const { ${2:prop} } = props;
+
+	return (
+		<div className={styles.${3:name}}>
+			${1:Stateless}
+		</div>
+	);
+}
+]]></content>
+	<tabTrigger>reactstateless</tabTrigger>
+	<scope>source.js</scope>
+	<description>React Stateless</description>
+</snippet>

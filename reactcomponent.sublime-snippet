@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+import styles from './${1:Component}.sass';
+
+function ${1:Component}(props) {
+  const { ${2:prop} } = props;
+
+  return (
+    <div className={styles.${3:className}}>
+    	${1:Component}
+    </div>
+  )
+}
+
+${1:Component}.propTypes = {
+  ${4:name}: React.PropTypes.${5:type}.isRequired$0
+}
+
+export default ${1:Component};
+]]></content>
+	<tabTrigger>reactcomponent</tabTrigger>
+	<scope>source.js</scope>
+	<description>React Component</description>
+</snippet>

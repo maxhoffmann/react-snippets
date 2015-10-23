@@ -1,16 +1,14 @@
 <snippet>
 	<content><![CDATA[
-React.createClass({
+class ${1:Class} extends Component {
 
 	render() {
 		return (
-			<div className="$2">
-				${1:Module}
-			</div>
+			${1:Class}
 		);
 	}
 
-});
+}
 ]]></content>
 	<tabTrigger>reactclass</tabTrigger>
 	<scope>source.js</scope>
